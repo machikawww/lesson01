@@ -5,13 +5,13 @@ for (let i = 2; i < process.argv.length; i++) {
 }
 //console.log(numbers)コマンドライン引数の配列を作成
 
-function Bigger(array) {
+function isSmall(array) {
     let arr = []
 
     //0~9999までマッチした数から配列にpush()
-    for (let j = 0; j <= 9999; j++) {
+    for (let i = 0; i <= 9999; i++) {
         for (let m = 0; m < array.length; m++) {
-            if (j === array[m]) {
+            if (i === array[m]) {
                 arr.push(array[m])
             }
         }
@@ -19,5 +19,5 @@ function Bigger(array) {
     return arr
 }
 
-const result = Bigger(numbers)
+const result = isSmall(numbers)
 console.log(result)
