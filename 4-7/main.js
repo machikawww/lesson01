@@ -5,7 +5,7 @@ names = names.split(',')
 let array = []
 for (let j = 0; j < names.length; j++) {
     let name = names[j]
-    array.push(name.charAt(0).toLowerCase() + name.slice(1))
+    array.push(name.toLowerCase())
 }
 //小文字のnames arrayを作成する
 //console.log(array)
