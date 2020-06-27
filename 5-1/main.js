@@ -18,3 +18,6 @@ const profiles = {
     }
   ]
 }
+for (let profile of profiles.profiles) {
+  console.log(`${profile.name}:${profile.age}`)
+}
