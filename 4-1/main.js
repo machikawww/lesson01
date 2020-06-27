@@ -9,4 +9,4 @@ const result = arr.sort((a, b) => {
     return b - a
 })
 //３番目を表示
-console.log(result[2])
+console.log(result[Math.round(arr.length / 2)])
