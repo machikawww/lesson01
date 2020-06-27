@@ -1,6 +1,6 @@
 const str = "こはるはるここはるここはるはるここはるこはるはるはる"
 
-function SearchCount(text, name) {
+function searchCount(text, name) {
     let index = 0
     let count = 0
     for (; true;) {
@@ -16,6 +16,6 @@ function SearchCount(text, name) {
 
 const a = 'こはる'
 const b = 'はるこ'
-const result1 = SearchCount(str, a)
-const result2 = SearchCount(str, b)
+const result1 = searchCount(str, a)
+const result2 = searchCount(str, b)
 console.log(`${a}:${result1}\n${b}:${result2}`)
